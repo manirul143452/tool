@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loyalty Couple - Strengthen Your Love</title>
+    <meta name="description" content="Loyalty Couple - AI-powered relationship monitoring with restaurant rewards and trust-building features.">
+    <meta name="keywords" content="Loyalty Couple, relationship analyzer, trust score, AI monitoring, couple trust app">
+    <meta name="author" content="Loyalty Couple">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary: #6a1b9a; /* Purple */
+            --secondary: #ffab00; /* Amber */
+            --accent: #00c853; /* Green */
+            --light: #f4f7f6; /* Light Gray */
+            --dark: #333; /* Dark Gray */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary), #8e24aa);
+            color: white;
+            padding: 6rem 1rem;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            animation: fadeIn 2.5s ease-in-out;
+        }
+
+        header .cta-button {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.3s, opacity 0.3s;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        header .cta-button:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            flex: 1 1 300px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-card i {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--primary);
+        }
+
+        .testimonial-card {
+            background: var(--light);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 1rem;
+            display: inline-block;
+            width: 300px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .testimonial-card p {
+            font-style: italic;
+            color: #666;
+        }
+
+        .testimonial-card h4 {
+            margin-top: 1rem;
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .features {
+                flex-direction: column;
+            }
+
+            .testimonial-card {
+                width: 100%;
+                margin: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Loyalty Couple</h1>
+            <p>Strengthen your love, earn restaurant rewards, and build trust with AI-powered relationship monitoring.</p>
+            <button class="cta-button" onclick="window.location.href='#features'">Get Started</button>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features container">
+        <div class="feature-card">
+            <i class="fas fa-heart"></i>
+            <h3>Trust Score</h3>
+            <p>Monitor and improve your relationship trust score with AI insights.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-gift"></i>
+            <h3>Restaurant Rewards</h3>
+            <p>Earn exclusive rewards at partner restaurants for strengthening your bond.</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-link"></i>
+            <h3>Couple Linking</h3>
+            <p>Connect with your partner and track your relationship progress together.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-card">
+            <p>"Loyalty Couple has transformed our relationship. We love the rewards and trust-building features!"</p>
+            <h4>- Sarah & John</h4>
+        </div>
+        <div class="testimonial-card">
+            <p>"The AI insights are amazing. We feel more connected than ever!"</p>
+            <h4>- Emily & Mike</h4>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Loyalty Couple. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
